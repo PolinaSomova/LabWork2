@@ -148,7 +148,6 @@ void FindMaxInSortArray (int* findMaxSortArr) {
     system_clock::time_point end = system_clock:: now();
     duration<double> sec = end - start;
     cout << "Время затраченное на поиск максимума в отсортированном массиве: " << sec.count() << "\n\n";
-
 }
 
 /*
@@ -175,7 +174,6 @@ void FindMinInRandomArray (int* findMinRandArr) {
     system_clock::time_point end = system_clock:: now();
     duration<double> sec = end - start;
     cout << "Время затраченное на поиск минимума в неотсортированном массиве: " << sec.count() << "\n\n";
-
 }
 
 /*
@@ -206,7 +204,6 @@ void DoTask3 () {
     FindMinInSortArray(BubbleSort(globalArray));
     cout << "***Конец Задание 3***\n\n";
     cout << "\n\n";
-
 }
 
 /*
